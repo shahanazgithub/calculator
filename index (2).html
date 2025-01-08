@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/011/106/474/original/3d-pink-calculator-icon-for-accounting-finance-isolated-minimal-concept-3d-render-illustration-png.png" type="image/x-icon">
+    <style>
+         body{
+            background-image: url("https://us.123rf.com/450wm/destrolove/destrolove1907/destrolove190700227/126961099-3d-techno-neon-purple-blue-glowing-outline-wireframe-symbol-of-basic-number-operations-of-calculator.jpg?ver=6") ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        h1{
+            color:aliceblue ;
+            text-shadow: 7px 7px 3px rgb(255, 10, 145);
+            font-family: 'Brush Script MT',cursive;
+            font-size: 120px;
+            margin: auto;
+            margin-left: 150px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1><i>Calculator</i></h1>
+    <div class="a">   
+    <br><br><br><center><input type="number" placeholder="Enter the 1st number" id="n1"></center><br>
+    <div>
+    <center>
+    <input type="submit" value="add" id="add" >
+    <input type="submit" value="sub" id="sub" >
+    <input type="submit" value="mul" id="mul" >
+    <input type="submit" value="div" id="div" >
+    </center>
+    </div>
+    <br>
+    <center>
+    <input type="submit" value="=" id="eq" >
+    <input type="submit" value="reload" id="reload" onclick="window.location.reload()"></center><br>
+    <div id="result">&emsp;result&emsp;</div><br>
+    <div id="wait">&emsp;wait&emsp;</div>
+    </div>
+    <script src="design.js"></script>
+    <!--Dom-Document Object Model
+    1.getElementById()
+    2.getElementByClassName()
+    3.getElementByTagName()
+    -->
+</body>
+</html>
